@@ -7,9 +7,10 @@ export default function Form() {
 
   const handleForm = (e) => {
     e.preventDefault();
-    console.log(`Nome: ${nomeRef.current}`);
-    console.log(`Idade: ${idadeRef.current}`);
-    console.log(`Termo: ${aceitartTermosRef.current.value}`);
+    alert(`Nome: ${nomeRef.current}
+    Idade: ${idadeRef.current}
+    Termo: ${aceitartTermosRef.current.value}`)
+    
 };
 
   return (

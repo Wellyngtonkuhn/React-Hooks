@@ -5,7 +5,6 @@ import { actions } from "../reducer/actions/actionsCounter";
 import { counterReducers } from "../reducer/reducers/counterReducers";
 import { initialSatate } from "../reducer/reducers/counterReducers";
 
-
 export default function UseReducer() {
   const [state, dispacht] = useReducer(counterReducers, initialSatate);
   const [userDataInfo, setUserDataInfo] = useState(0);

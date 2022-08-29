@@ -1,22 +1,9 @@
-import UseState from "./components/UseState";
-import UseEffect from "./components/UseEffect";
-import UseRef from "./components/UseRef";
-
-import Form from "./components/Form";
-import UseReducer from "./components/UseReducer";
+import RouterElement from "./Rotuer";
 
 function App() {
   return (
     <>
-      <UseState />
-      <hr />
-      <UseEffect />
-      <hr />
-      <UseRef />
-      <hr />
-      <Form />
-      <hr />
-      <UseReducer />
+      <RouterElement />
     </>
   );
 }
